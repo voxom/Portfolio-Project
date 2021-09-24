@@ -96,10 +96,10 @@ footer > p {
 }
 
 .iframe-corners {
-  width: 100%;
+  width: 60%;
   height: 100%; 
   margin: auto;
-  padding: 50px;
+  padding: 25px;
 }
 
 .iframe-corners iframe {
