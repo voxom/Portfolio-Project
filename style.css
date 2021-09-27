@@ -1,5 +1,7 @@
+/*
+This * means for everything, right?
+*/
 * {
-
   box-sizing: border-box;
 }
 
@@ -11,6 +13,10 @@ img {
 body {
   background-color: slategray;
   background-image: url("images/black-and-white-mountain.jpg");
+}
+
+h1, h2, footer > p {
+  color: rgb(219, 7, 7);
 }
 
 h1 {
@@ -26,7 +32,10 @@ h3 {
   font-family: 'Lato', sans-serif;
 }
 
-p {
+/* styles paragraphs, unordered and ordered lists */
+p, ul, ol {
+  color: black;
+  font-size: 100%;
   font-family: 'Roboto', sans-serif;
   text-align: left;
 }
@@ -41,8 +50,6 @@ header {
   margin-top: 5%;
   padding-top: 25px;
   padding-bottom: 25px;
-  
-
 }
 
 main {
@@ -50,7 +57,6 @@ main {
   width: 75%;
   margin: auto;
   background-color: black;
-  
 }
 
 
@@ -58,7 +64,6 @@ main {
   width: 50%;
   height: 50%;
   margin: auto;
-  
 }
 
 footer {
@@ -67,15 +72,14 @@ footer {
   margin: auto;
   margin-bottom: 5%;
   background-color:darkslategray;
-  
 }
 
-
+/* styles only the paragraph located in the footer */
 footer > p {
   text-align: center;
   background-color: darkslategray;
   margin-top: 0;
-  padding-top: 50px;
+  padding-top: 65px;
 }
 
 .content {
@@ -110,9 +114,8 @@ footer > p {
 }
 
 
-
-
-a:link {color: black}
-a:visited {color: black}
-a:hover {color:green}
-a:active {color: blue}
+/* styles the anchor LoVeHAte */
+a:link {color: rgb(219, 7, 7);}
+a:visited {color: rgb(219, 7, 7);}
+a:hover {color:black}
+a:active {color: black}
